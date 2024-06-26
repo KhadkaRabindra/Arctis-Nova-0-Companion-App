@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
 
         //observers
         arctisNovaViewModel.firmwareVersion.observe(this) { fwVersion ->
-            binding.firmwareVersionTextView.text = fwVersion
+            binding.firmwareVersionTextView.text = getString(R.string.headset_firmware_version) + fwVersion
         }
 
         arctisNovaViewModel.micVolume.observe(this) { volume ->

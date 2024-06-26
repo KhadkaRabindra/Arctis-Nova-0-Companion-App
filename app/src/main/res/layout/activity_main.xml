@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Microsoft Volume"
+        android:text="@string/microphone_volume"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -25,16 +25,16 @@
         android:id="@+id/volumeSeekbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp" />
+        android:layout_marginTop="24dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp" />
 
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/firmwareVersionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Headset Firmware Version : N/A"
+        android:layout_marginTop="24dp"
+        android:text="@string/default_firmware_version"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
